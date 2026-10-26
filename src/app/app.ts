@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
+import { PageFooter } from './page-footer/page-footer';
 
 @Component({
   selector: 'app-root',
-  imports: [],
+  imports: [PageFooter],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
